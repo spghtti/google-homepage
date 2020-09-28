@@ -1,0 +1,165 @@
+p {
+    font-size: 13px;
+    color: #000;
+    font: arial;
+    font-family: Sans-serif;
+}
+
+.header-button {
+    background:url(/images/googleappsbutton.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: auto;
+    font-size: 13px;
+}
+
+#sign-in {
+    color: #fff;
+    box-shadow: 0 1px 0;
+    font-weight: bold;
+    background-color: #4387fd;
+    box-shadow: 0 1px 0;
+    font-size: 12px;
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+}
+
+#header-left {
+    align-items: center;
+}
+
+#header-right {
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+#apps-button {
+    height: 10px;
+}
+
+ul {
+    font-size: 13px;
+    color: #000;
+    font: arial;
+    font-family: Sans-serif;
+    list-style-type: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+a {
+    color: #000;
+    font: arial;
+    font-family: Sans-serif;
+    text-decoration: none;
+    opacity: .75;
+}
+
+button {
+    font: arial;
+    font-size: 13px;
+    font-family: sans-serif;
+    font: #222;
+}
+
+div {
+    display: flex;
+}
+
+#hplogo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 181px;
+    width: auto;
+    height: auto;
+}
+
+.search-container {
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    width: auto;
+    height: auto;
+}
+.search-bar {
+    border-radius: 24px;
+    border-color: gray;
+    opacity: .5;
+    background: url(/images/searchicon.png) no-repeat;
+    background-position: 2% 50%;
+    width: 600px;
+    height: 44px;
+}
+
+input {
+    height: 40px;
+    width: 520px;
+    position: absolute;
+    border: 0;
+    background: transparent;
+    font: arial;
+    font-family: sans-serif;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button {
+    display: inline-block;
+    height: 35px;
+    width: 150px;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.search-button:hover {
+    display: inline-block;
+    height: 35px;
+    width: 150px;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    opacity: .75;
+    justify-content: space-between;
+}
+
+#footer-left {
+
+}
+
+#footer-right {
+
+}
