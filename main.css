@@ -61,7 +61,8 @@ input:focus {
 }
 button:hover {
     cursor: pointer;
-  }
+}
+
 li {
     display: inline-block;
     padding: 10px;
@@ -159,11 +160,6 @@ input {
     opacity: .75;
     justify-content: space-between;
 }
-
-#footer-left {
-
-}
-
-#footer-right {
-
+.material-icons:hover {
+    cursor: pointer;
 }
